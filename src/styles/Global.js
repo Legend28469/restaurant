@@ -13,9 +13,11 @@ const GlobalStyle = createGlobalStyle`
   body {
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    font-weight: normal;
 
     h1, h2, h3, h4, h5, h6 {
         font-family: "Open Sans Condensed", sans-serif;
+        font-weight: bold;
     }
   }
 `

@@ -15,10 +15,13 @@ export default () => {
       </SubTitle>
       <ListContainer>
         <ListItem>
-          <StyledLink to="/">About</StyledLink>
+          <StyledLink to="/">Home</StyledLink>
         </ListItem>
         <ListItem>
-          <StyledLink to="/">Food</StyledLink>
+          <StyledLink to="/about">About</StyledLink>
+        </ListItem>
+        <ListItem>
+          <StyledLink to="/food">Food</StyledLink>
         </ListItem>
         <ListItem>
           <StyledLink to="/">Drinks</StyledLink>
@@ -43,19 +46,18 @@ const Container = styled.div`
   text-align: left;
   flex-direction: column;
   justify-content: center;
+  padding-top: 14.5rem;
 `
 
 const Title = styled.h1`
   font-size: 4rem;
   font-weight: bold;
   letter-spacing: 1.3px;
-  display: inline-block;
+  display: contents;
   color: #ffffff;
-  margin-top: 11.5rem;
 
   &:hover {
     color: #ff1212;
-    cursor: pointer;
   }
 `
 
@@ -78,6 +80,7 @@ const ListItem = styled.li`
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: #ffffff;
+  display: contents;
 
   &:hover {
     color: #ff1212;

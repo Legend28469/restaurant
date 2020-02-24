@@ -12,7 +12,12 @@ export default () => {
           you within 30 min to confirm or find another time.
         </Description>
 
-        <form name="reservation" method="POST" data-netlify="true">
+        <form
+          name="reservation"
+          method="POST"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
+        >
           <Input type="text" name="name" placeholder="Your Name" />
 
           <Input type="email" name="email" placeholder="Your Email" />

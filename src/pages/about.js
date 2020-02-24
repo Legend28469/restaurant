@@ -22,10 +22,10 @@ export default () => {
       <Container>
         <Title>Literally only the best and freshest ingredients</Title>
         <Description>
-          Inspired by Gordon Ramsay on shows such as Hell's Kitchen and Kitchen
-          Nightmares we make everything fresh in hopes that Chef Ramsay himself
-          will come and eat at our restaurant. We never use frozen materials and
-          we clean often but most importantly we have the pictures to prove it!
+          Inspired by Gordon Ramsay shows Hell's Kitchen and Kitchen Nightmares
+          we make everything fresh in hopes that Chef Ramsay himself will come
+          and eat at our restaurant. We never use frozen materials and we clean
+          often but most importantly we have the pictures to prove it!
         </Description>
 
         <ImageContainer>

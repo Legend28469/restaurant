@@ -30,7 +30,7 @@ export default () => {
           <StyledLink to="/">Gallery</StyledLink>
         </ListItem>
         <ListItem>
-          <StyledLink to="/">Make A Reservation</StyledLink>
+          <StyledLink to="/reservation">Make A Reservation</StyledLink>
         </ListItem>
       </ListContainer>
     </Container>

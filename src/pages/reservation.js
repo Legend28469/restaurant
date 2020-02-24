@@ -9,7 +9,7 @@ export default () => {
         <Title>Please fill out the form to book a reservation</Title>
         <Description>
           Let us know when you’d like to book a reservation and we’ll contact
-          you within 30 min to confirm or find another time.
+          you within 30 minutes to confirm or find another time.
         </Description>
 
         <form

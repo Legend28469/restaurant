@@ -23,6 +23,8 @@ export default () => {
             placeholder="When would you like to book a reservation?"
           />
 
+          <div data-netlify-recaptcha="true"></div>
+
           <Button type="submit">Send</Button>
         </form>
       </Container>

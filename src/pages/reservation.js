@@ -15,9 +15,11 @@ export default () => {
         <form
           name="reservation"
           method="POST"
-          data-netlify-recaptcha="true"
           data-netlify="true"
+          data-netlify-honeypot="bot-field"
         >
+          <input type="hidden" name="form-name" value="reservation" />
+
           <Input type="text" name="name" placeholder="Your Name" />
 
           <Input type="email" name="email" placeholder="Your Email" />
@@ -27,8 +29,6 @@ export default () => {
             name="date"
             placeholder="When would you like to book a reservation?"
           />
-
-          <div data-netlify-recaptcha="true"></div>
 
           <Button type="submit">Send</Button>
         </form>

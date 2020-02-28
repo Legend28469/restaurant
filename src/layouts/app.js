@@ -17,7 +17,4 @@ export default props => {
   )
 }
 
-const Container = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-`
+const Container = styled.div``

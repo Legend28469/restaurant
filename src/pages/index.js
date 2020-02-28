@@ -2,6 +2,7 @@ import React from "react"
 import App from "../layouts/app"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import styled from "styled-components"
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -18,12 +19,20 @@ export default () => {
 
   return (
     <App>
-      <Img
-        fluid={data.restaurant.childImageSharp.fluid}
-        imgStyle={{ objectFit: "cover" }}
-        style={{ height: "100%" }}
-        alt="Restaurant image"
-      />
+      <Container>
+        <Img
+          fluid={data.restaurant.childImageSharp.fluid}
+          imgStyle={{ objectFit: "cover" }}
+          style={{ height: "100%" }}
+          alt="Restaurant image"
+        />
+      </Container>
     </App>
   )
 }
+
+const Container = styled.div`
+  margin-left: 22.5rem;
+  height: 100vh;
+  position: relative;
+`

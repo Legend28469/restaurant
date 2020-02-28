@@ -24,10 +24,10 @@ export default () => {
           <StyledLink to="/food">Food</StyledLink>
         </ListItem>
         <ListItem>
-          <StyledLink to="/">Drinks</StyledLink>
+          <StyledLink to="/drinks">Drinks</StyledLink>
         </ListItem>
         <ListItem>
-          <StyledLink to="/">Gallery</StyledLink>
+          <StyledLink to="/gallery">Gallery</StyledLink>
         </ListItem>
         <ListItem>
           <StyledLink to="/reservation">Make A Reservation</StyledLink>
@@ -47,6 +47,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   padding-top: 14.5rem;
+  position: fixed;
 `
 
 const Title = styled.h1`

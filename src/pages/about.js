@@ -24,8 +24,8 @@ export default () => {
         <Description>
           Inspired by Gordon Ramsay shows Hell's Kitchen and Kitchen Nightmares
           we make everything fresh in hopes that Chef Ramsay himself will come
-          and eat at our restaurant. We never use frozen materials and we clean
-          often but most importantly we have the pictures to prove it!
+          and eat at our restaurant. We never use frozen materials, we clean
+          often and most importantly we have the pictures to prove it!
         </Description>
 
         <ImageContainer>
@@ -43,6 +43,7 @@ export default () => {
 
 const Container = styled.div`
   padding: 100px;
+  margin-left: 22.5rem;
   height: 100vh;
   position: relative;
 `

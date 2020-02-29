@@ -45,7 +45,7 @@ export default ({ data }) => {
   }, [data])
 
   return (
-    <React.Fragment>
+    <Container>
       {menuItems.map(item => {
         return (
           <React.Fragment key={item.type}>
@@ -62,12 +62,16 @@ export default ({ data }) => {
           </React.Fragment>
         )
       })}
-    </React.Fragment>
+    </Container>
   )
 }
 
+const Container = styled.div`
+  padding-bottom: 5rem;
+`
+
 const Title = styled.h1`
-  margin-top: 3rem;
+  margin-top: 5.5rem;
   font-size: 3rem;
   font-weight: 700;
   padding-bottom: 2rem;
@@ -83,7 +87,7 @@ const SubTitle = styled.h3`
 `
 
 const ItemContainer = styled.div`
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: space-between;
 `

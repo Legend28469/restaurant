@@ -4,7 +4,7 @@ categories:
   - lunch
   - dinner
 description: dessert
-type: 'ice cream '
+type: dessert
 price: '5.00'
 ---
 

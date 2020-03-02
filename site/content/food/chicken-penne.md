@@ -3,8 +3,8 @@ title: 'Chicken Penne '
 categories:
   - lunch
   - dinner
-description: 'Made with out worlds famous pasta and penne sauce '
-type: 'Chicken '
-price: '20.00'
+description: 'Made with our worlds famous pasta and penne sauce '
+type: Pasta
+price: '20'
 ---
 

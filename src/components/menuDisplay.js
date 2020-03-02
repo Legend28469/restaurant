@@ -78,12 +78,14 @@ const Title = styled.h1`
   display: block;
   font-style: italic;
   border-bottom: 1px solid #eee;
+  text-transform: capitalize;
 `
 
 const SubTitle = styled.h3`
   font-size: 1.5rem;
   text-transform: capitalize;
   display: inline-block;
+  text-tranform: capitalize;
 `
 
 const ItemContainer = styled.div`

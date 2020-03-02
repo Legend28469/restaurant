@@ -1,10 +1,9 @@
 ---
-title: 'Ice cream '
+title: "Ice cream "
 categories:
   - lunch
   - dinner
-description: dessert
+description: Made with real dairy.
 type: dessert
-price: '5.00'
+price: "5.00"
 ---
-

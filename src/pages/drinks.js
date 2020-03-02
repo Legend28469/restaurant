@@ -6,8 +6,11 @@ import MenuDisplay from "../components/menuDisplay"
 
 export default () => {
   const query = useStaticQuery(graphql`
-    query MyQuery {
-      allMarkdownRemark {
+    query drinks {
+      allMarkdownRemark(
+        filter: { frontmatter: { categories: { eq: "drinks" } } }
+        sort: { order: ASC, fields: frontmatter___title }
+      ) {
         edges {
           node {
             frontmatter {

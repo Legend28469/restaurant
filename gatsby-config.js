@@ -9,7 +9,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-lodash`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -38,6 +37,13 @@ module.exports = {
       options: {
         path: `${__dirname}/site/content/drinks`,
         name: `drinks`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/site/content/food`,
+        name: `food`,
       },
     },
     `gatsby-transformer-remark`,

@@ -3,8 +3,8 @@ title: 'Chicken strips and Fries '
 categories:
   - lunch
   - dinner
-description: 'chicken fried to perfection '
+description: Chicken fried to perfection with homemade fries
 type: 'Chicken '
-price: '20.00'
+price: '20'
 ---
 

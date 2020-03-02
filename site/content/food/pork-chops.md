@@ -3,7 +3,7 @@ title: Pork chops
 categories:
   - lunch
   - dinner
-description: Juiciest meat fresh and acquired locally
+description: With literally the number one sauce in the city.
 type: Lunch
 price: '15'
 ---

@@ -28,12 +28,12 @@ export default ({ data }) => {
 const Container = styled.div`
   padding-bottom: 5rem;
   display: grid;
-  grid-template-rows: 200px;
+  grid-template-rows: 15rem;
   gap: 1rem;
   grid-template-columns: 1fr 1fr 1fr;
 `
 
 const ImageContainer = styled.div`
   cursor: pointer;
-  height: 200px;
+  height: 15rem;
 `

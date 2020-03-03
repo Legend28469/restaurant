@@ -1,13 +1,31 @@
 import React from "react"
 import App from "../layouts/app"
 import styled from "styled-components"
+import { graphql, useStaticQuery } from "gatsby"
+import Gallery from "../components/gallery"
 
 export default () => {
+  const query = useStaticQuery(graphql`
+    query gallery {
+      allFile(filter: { sourceInstanceName: { eq: "gallery" } }) {
+        edges {
+          node {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <App>
       <Container>
         <Title>Gallery</Title>
-        <SubTitle>Stuff</SubTitle>
+        <Gallery data={query.allFile.edges} />
       </Container>
     </App>
   )
@@ -24,12 +42,4 @@ const Title = styled.h2`
   font-size: 3rem;
   padding-bottom: 5rem;
   color: #202020;
-`
-
-const SubTitle = styled.h3`
-  font-size: 2rem;
-  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
-  color: #202020;
-  font-style: italic;
-  padding-bottom: 2rem;
 `

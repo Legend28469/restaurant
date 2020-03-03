@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Legend28469/restaurant
 
-media_folder: static/assets
+media_folder: site/content/gallery
 public_folder: /assets
 
 collections:
@@ -54,3 +54,10 @@ collections:
           default: "beer",
         }
       - { label: "Price", name: "price", widget: "string" }
+  - name: gallery
+    label: "Gallery Image" # Used in the UI, ie.: "New Post"
+    folder: "site/content/gallery" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Gallery Image", name: "image", widget: "image" }

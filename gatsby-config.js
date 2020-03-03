@@ -9,6 +9,8 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-netlify-cms`,
+    `gatsby-transformer-yaml-netlify`,
+    `gatsby-remark-images`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -25,6 +27,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-yaml`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -44,6 +47,13 @@ module.exports = {
       options: {
         path: `${__dirname}/site/content/food`,
         name: `food`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/site/content/gallery`,
+        name: `gallery`,
       },
     },
     `gatsby-transformer-remark`,

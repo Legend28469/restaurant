@@ -1,10 +1,8 @@
 ---
-title: 'Chicken Penne '
+title: "Chicken Penne "
 categories:
-  - lunch
-  - dinner
-description: 'Made with our worlds famous pasta and penne sauce '
+  - food
+description: "Made with our worlds famous pasta and penne sauce "
 type: Pasta
-price: '20'
+price: "20"
 ---
-

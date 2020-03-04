@@ -1,10 +1,8 @@
 ---
 title: Pork chops
 categories:
-  - lunch
-  - dinner
+  - food
 description: With literally the number one sauce in the city.
 type: Lunch
-price: '15'
+price: "15"
 ---
-

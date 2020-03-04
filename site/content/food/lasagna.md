@@ -1,10 +1,8 @@
 ---
 title: lasagna
 categories:
-  - lunch
-  - dinner
+  - food
 description: well seasoned sauce
 type: Pasta
-price: '10'
+price: "10"
 ---
-

@@ -1,10 +1,8 @@
 ---
-title: 'Chicken strips and Fries '
+title: "Chicken strips and Fries "
 categories:
-  - lunch
-  - dinner
+  - food
 description: Chicken fried to perfection with homemade fries
-type: 'Chicken '
-price: '20'
+type: "Chicken "
+price: "20"
 ---
-

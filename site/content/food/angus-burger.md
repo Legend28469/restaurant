@@ -1,10 +1,8 @@
 ---
 title: Angus Burger
 categories:
-  - lunch
-  - dinner
+  - food
 description: Juiciest meat fresh and acquired locally
 type: Lunch
-price: '10'
+price: "10"
 ---
-

@@ -9,8 +9,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-netlify-cms`,
-    `gatsby-transformer-yaml-netlify`,
-    `gatsby-remark-images`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -27,7 +25,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-yaml`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,

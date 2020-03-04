@@ -8,7 +8,7 @@ export default () => {
   const query = useStaticQuery(graphql`
     query food {
       allMarkdownRemark(
-        filter: { frontmatter: { categories: { ne: "drinks" } } }
+        filter: { frontmatter: { categories: { eq: "food" } } }
         sort: { order: ASC, fields: frontmatter___title }
       ) {
         edges {

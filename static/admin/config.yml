@@ -15,8 +15,8 @@ collections:
       - {
           label: "Supported Meals",
           name: "categories",
-          widget: "list",
-          default: ["lunch", "dinner"],
+          widget: "hidden",
+          default: ["food"],
         }
       - {
           label: "Ingredients/Description",

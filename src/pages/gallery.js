@@ -36,10 +36,20 @@ const Container = styled.div`
   margin-left: 22.5rem;
   height: 100vh;
   position: relative;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    margin: 0;
+    height: auto;
+  }
 `
 
 const Title = styled.h2`
   font-size: 3rem;
   padding-bottom: 5rem;
   color: #202020;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `

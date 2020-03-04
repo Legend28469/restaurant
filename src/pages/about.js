@@ -46,6 +46,12 @@ const Container = styled.div`
   margin-left: 22.5rem;
   height: 100vh;
   position: relative;
+
+  @media (max-width: 768px) {
+    height: auto;
+    margin: 0;
+    padding: 1rem;
+  }
 `
 
 const Title = styled.h2`
@@ -53,6 +59,10 @@ const Title = styled.h2`
   padding-bottom: 2rem;
   border-bottom: 1px solid rgb(0, 0, 0, 0.1);
   color: #202020;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `
 
 const Description = styled.p`
@@ -64,11 +74,9 @@ const Description = styled.p`
 `
 
 const ImageContainer = styled.div`
+  width: 100%;
   height: 300px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin-bottom: 3rem;
-  padding: 0 6.2rem;
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 `

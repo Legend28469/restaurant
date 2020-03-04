@@ -48,6 +48,10 @@ const Container = styled.div`
   justify-content: center;
   padding-top: 14.5rem;
   position: fixed;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
 
 const Title = styled.h1`

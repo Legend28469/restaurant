@@ -41,18 +41,21 @@ const Container = styled.div`
   margin-left: 22.5rem;
   height: 100vh;
   position: relative;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    margin: 0;
+    height: auto;
+  }
 `
 
 const Title = styled.h2`
   font-size: 3rem;
   padding-bottom: 1.5rem;
   color: #202020;
-`
 
-// const SubTitle = styled.h3`
-//   font-size: 2rem;
-//   border-bottom: 1px solid rgb(0, 0, 0, 0.1);
-//   color: #202020;
-//   font-style: italic;
-//   padding-bottom: 2rem;
-// `
+  @media (max-width: 768px) {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+`

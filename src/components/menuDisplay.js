@@ -68,6 +68,10 @@ export default ({ data }) => {
 
 const Container = styled.div`
   padding-bottom: 5rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 `
 
 const Title = styled.h1`
@@ -79,19 +83,33 @@ const Title = styled.h1`
   font-style: italic;
   border-bottom: 1px solid #eee;
   text-transform: capitalize;
+
+  @media (max-width: 768px) {
+    margin-top: 2rem;
+    text-align: center;
+  }
 `
 
 const SubTitle = styled.h3`
   font-size: 1.5rem;
   text-transform: capitalize;
   display: inline-block;
-  text-tranform: capitalize;
+  text-transform: capitalize;
+
+  @media (max-width: 768px) {
+    margin-bottom: 0.5rem;
+  }
 `
 
 const ItemContainer = styled.div`
   margin-top: 1.5rem;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
 `
 
 const Description = styled.p`
@@ -100,6 +118,10 @@ const Description = styled.p`
   font-size: 1.2rem;
   line-height: 1.5;
   flex: 2;
+
+  @media (max-width: 768px) {
+    margin: 0;
+  }
 `
 
 const Price = styled.div`
@@ -107,4 +129,8 @@ const Price = styled.div`
   font-size: 1.3rem;
   line-height: 1.5;
   margin-left: 1rem;
+
+  @media (max-width: 768px) {
+    margin: 0;
+  }
 `

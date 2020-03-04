@@ -35,4 +35,9 @@ const Container = styled.div`
   margin-left: 22.5rem;
   height: 100vh;
   position: relative;
+
+  @media (max-width: 768px) {
+    margin: 0;
+    height: 100vh;
+  }
 `

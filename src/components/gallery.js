@@ -49,6 +49,10 @@ const Container = styled.div`
   grid-template-rows: 15rem;
   gap: 1rem;
   grid-template-columns: 1fr 1fr 1fr;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 const ImageContainer = styled.div`

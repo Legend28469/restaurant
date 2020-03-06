@@ -38,7 +38,7 @@ export default () => {
 
 const Container = styled.div`
   padding: 100px;
-  margin-left: 22.5rem;
+  margin-left: 5rem;
   height: 100vh;
   position: relative;
 

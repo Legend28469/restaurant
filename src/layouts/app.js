@@ -4,14 +4,14 @@ import styled from "styled-components"
 import { Reset } from "styled-reset"
 import SideMenu from "./side-menu"
 
-export default props => {
+export default ({ children }) => {
   return (
     <>
       <Reset />
       <GlobalStyle />
       <Container>
         <SideMenu />
-        {props.children}
+        {children}
       </Container>
     </>
   )

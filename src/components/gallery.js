@@ -69,3 +69,9 @@ const Button = styled.div`
   font-size: 1.2rem;
   cursor: pointer;
 `
+
+/* 
+  Can fix mobile lightbox buy making a div in front of the image 
+  the same dimensions and then use z-index and opacity to control 
+  when we see it 
+*/

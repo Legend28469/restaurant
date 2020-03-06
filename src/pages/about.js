@@ -51,6 +51,7 @@ const Container = styled.div`
     height: auto;
     margin: 0;
     padding: 1rem;
+    padding-bottom: 8rem;
   }
 `
 

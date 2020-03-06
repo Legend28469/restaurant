@@ -46,6 +46,7 @@ const Container = styled.div`
     padding: 1rem;
     margin: 0;
     height: auto;
+    padding-bottom: 8rem;
   }
 `
 

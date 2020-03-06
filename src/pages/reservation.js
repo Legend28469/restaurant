@@ -42,6 +42,13 @@ const Container = styled.div`
   margin-left: 5rem;
   height: 100vh;
   position: relative;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    margin: 0;
+    height: auto;
+    padding-bottom: 8rem;
+  }
 `
 
 const Title = styled.h2`

@@ -197,6 +197,10 @@ const StyledLinkLogo = styled(StyledLink)`
 
 const IconContainer = styled.div`
   margin: 0 1.5rem;
+
+  @media only screen and (max-width: 600px) {
+    margin: 0 auto;
+  }
 `
 
 const LogoIconContainer = styled.div`

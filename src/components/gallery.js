@@ -16,8 +16,10 @@ export default ({ data }) => {
             <React.Fragment key={item.node.childImageSharp.id}>
               <ImageContainer
                 onClick={() => {
-                  setShowLightbox(true)
-                  setSelectedImage(item)
+                  if (window.screen.width > 600) {
+                    setShowLightbox(true)
+                    setSelectedImage(item)
+                  }
                 }}
               >
                 <Img

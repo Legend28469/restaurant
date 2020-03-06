@@ -36,7 +36,7 @@ const Container = styled.div`
   height: 100vh;
   position: relative;
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     margin: 0;
     height: 100vh;
   }

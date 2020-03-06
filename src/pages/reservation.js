@@ -43,7 +43,7 @@ const Container = styled.div`
   height: 100vh;
   position: relative;
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     padding: 1rem;
     margin: 0;
     height: auto;

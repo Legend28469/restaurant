@@ -47,7 +47,7 @@ const Container = styled.div`
   height: 100vh;
   position: relative;
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     height: auto;
     margin: 0;
     padding: 1rem;
@@ -61,7 +61,7 @@ const Title = styled.h2`
   border-bottom: 1px solid rgb(0, 0, 0, 0.1);
   color: #202020;
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     text-align: center;
   }
 `
